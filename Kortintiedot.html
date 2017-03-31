@@ -1,0 +1,49 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Harjun paperi</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="visuaalinen.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+    <script src="functions.js"></script>
+</head>
+<header class="main-header" role="banner">
+ <a href="etusivu.html"><center><img src="logo.png" alt="Banner Image"/></center></a>
+</header>
+<body>
+    <div>
+        <ul class="ul-valikko">
+            <li><a href="kortit.html">Kortit</a></li>
+            <li><a href="kalenterit">Kalenterit</a></li>
+            <li><a href="julisteet">Julisteet</a></li>
+            <li><a href="customercare.html">Customer care</a></li>
+        </ul>
+    </div>
+    <h1 class="h1-font">Valittu kortti</h1>
+    <table class="table-info">
+        <tr>
+            <th>
+    <img src="kortti1.jpg">
+                </th>
+            <th>
+    <div class="product-description" data-name="Muumio" data-price="2">
+        <h3 class="product-name">Muumio</h3>
+        <p class="product-price">&euro; 2</p>
+        <p> tietoa kortista </p>
+      
+        <form class="add-to-cart" action="cart.html" method="post"/>
+            </div>
+                
+                <form class="add-to-cart" action="ostoskori.html" method="post">
+                    <div>
+                        <label for="qty-1">Quantity</label>
+                        <input type="text" name="qty" id="qty" class="qty" value="1" />
+                    </div>
+                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                </form>
+                </th>
+            </tr>
+        </table>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<<<<<<< HEAD
+.main-header {
+  align: center;
+  padding-top: 2%;
+}
+.div-valikko{
+  align-content: center;
+}
+.ul-valikko {
+     padding: 0;
+     margin: 0 auto;
+     display: inline-block;
+     list-style: none;
+     position: relative;
+     float:left;
+     left: 30%;
+     z-index:2;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    font-family:'Courier New',  Courier;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+body {
+  background-image: url("lightpaperfibers.png");
+}
+
+.h1-font {
+  font-family:'Courier New',  Courier;
+  text-transform:uppercase;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.p-font {
+  font-family: "Lucida Console", monospace;
+}
+.p-font-etusivu {
+  font-family: "Lucida Console", monospace;
+  padding-top: 50px;
+}
+.p-sisalto {
+font-family: "Lucida Console", monospace;
+text-align: center;
+padding: 10px;
+}
+
+.h2-fontti{
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  padding: 10px;
+}
+.div-etusivu {
+
+  width: 130px;
+  height: 130px;
+  margin: 99px auto;
+  margin-left: 30px;
+  padding: 10px;
+  float: left;
+  position: fixed;
+  border-style: dotted;
+}
+.div-esittely {
+  margin-left: 180px;
+  margin-right: 180px;
+  padding: 70px;
+  overflow: hidden;
+  float: left;
+  position: fixed;
+  width: 800px;
+  font-family: "Lucida Console", monospace;
+  padding-top: 50px;
+}
+.image-korttivalikko
+{
+    float: unset;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.table-korttimenu
+{
+  width: 50%;
+  border: 15px;
+  border-bottom: 25px;
+  position: relative;
+  float:left;
+  left: 35%;
+}
+.table-info 
+{
+    position: relative;
+    border: 25px;
+    left: 20%;
+}
+.ul-ostoskori 
+{
+    border: 500px;
+    padding: 10px;
+    position: center;
+    font-family: "Lucida Console", monospace;
+    float: left;
+    font-size:200px;
+
+}

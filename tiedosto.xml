@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xml_visuaalinen.xsl"?>
+
+<korttien-tiedot
+  xmlns="https://www.w3schools.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.w3schools.com xsd.xsd">
+  <kortti>
+  <nimi>Muumio</nimi>
+  <hinta>3.20</hinta>
+  <suunnittelija>Maicy Day</suunnittelija>
+</kortti>
+<kortti>
+<nimi>Muumio</nimi>
+<hinta>3.20</hinta>
+<suunnittelija>Maicy Day</suunnittelija>
+</kortti>
+</korttien-tiedot>

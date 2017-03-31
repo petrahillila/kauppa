@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Harjun paperi</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="visuaalinen.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+    <script src="functions.js"></script>
+</head>
+<header class="main-header" role="banner">
+    <a href="etusivu.html"><center><img src="logo.png" alt="Banner Image" /></center></a>
+</header>
+<body>
+    <div>
+        <ul class="ul-valikko">
+            <li><a href="kortit.html">Kortit</a></li>
+            <li><a href="kalenterit">Kalenterit</a></li>
+            <li><a href="julisteet">Julisteet</a></li>
+            <li><a href="customercare.html">Customer care</a></li>
+        </ul>
+    </div>
+    <h1>Your Order</h1>
+
+    <table id="checkout-cart" class="shopping-cart">
+        <thead>
+            <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="pricing">
+        <p id="shipping">
+            <strong>Shipping</strong>: <span id="sshipping"></span>
+        </p>
+
+        <p id="sub-total">
+            <strong>Total</strong>: <span id="stotal"></span>
+        </p>
+    </div>
+
+    <div id="user-details">
+        <h2>Your Data</h2>
+        <div id="user-details-content"></div>
+    </div>
+
+
+    <form id="paypal-form" action="" method="post">
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="upload" value="1" />
+        <input type="hidden" name="business" value="" />
+
+        <input type="hidden" name="currency_code" value="" />
+        <input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+    </form>
+
+</body>
+</html>

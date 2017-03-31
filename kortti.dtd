@@ -1,0 +1,5 @@
+<!ELEMENT kortti (nimi, hinta, suunnittelija, varastossa)>
+<!ELEMENT nimi (#CDATA)>
+<!ELEMENT hinta (#CDATA)>
+<!ELEMENT suunnittelija (#CDATA)>
+<!ELEMENT varastossa (#CDATA)>

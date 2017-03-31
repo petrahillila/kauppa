@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Harjun paperi</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="visuaalinen.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+    <script src="functions.js"></script>
+</head>
+<header class="main-header" role="banner">
+    <a href="etusivu.html"><center><img src="logo.png" alt="Banner Image" /></center></a>
+</header>
+<body>
+    <ul class="ul-valikko">
+        <li><a href="kortit.html">Kortit</a></li>
+        <li><a href="kalenterit">Kalenterit</a></li>
+        <li><a href="julisteet">Julisteet</a></li>
+        <li><a href="customercare.html">Customer care</a></li>
+    </ul>
+    <form id="shopping-cart" action="cart.html" method="post">
+        <table class="shopping-cart">
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <p id="sub-total">
+            <strong>Sub Total</strong>: <span id="stotal"></span>
+        </p>
+        <ul class="ul-ostoskori" id="shopping-cart-actions">
+            <li>
+                <input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+            </li>
+            <li>
+                <input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+            </li>
+            <li>
+                <a href="kortit.html" class="btn">Continue Shopping</a>
+            </li>
+            <li>
+                <a href="check-out.html" class="btn">Go To Checkout</a>
+            </li>
+        </ul>
+    </form>
+
+</body>
+</html>
